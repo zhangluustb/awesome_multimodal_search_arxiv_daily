@@ -2,7 +2,15 @@ name: arXiv Daily Papers
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行
+    - cron: '30 11 * * *'  # 每天 UTC 时间 00:00 运行
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      # 定义可选的输入参数
+      message:
+        description: 'Optional message for the run'
+        required: false
+        default: 'Manual run'
 
 jobs:
   get-papers:
