@@ -48,5 +48,5 @@ with open('README.md', 'w', encoding='utf-8') as mdfile:
                 link = row['Link']
                 desc = row['Desc']
                 author = row['author']
-                mdfile.write(f"| {title} | [Link]({link}) | {desc} | {author} |\n")
-                mdfile_total.write(f"| {title} | [Link]({link}) | {desc} | {author} |\n")
+                mdfile.write(f"| {title} | [{link}]({link}) | {desc} | {author} |\n")
+                mdfile_total.write(f"| {title} | [{link}]({link}) | {desc} | {author} |\n")
