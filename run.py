@@ -14,7 +14,7 @@ feed = feedparser.parse(url)
 # 获取当前日期
 today = datetime.date.today().strftime("%d-%b-%Y")
 import os
-os.mkdir(today)
+os.makedirs(today,exist_ok=True)
 os.chdir(today)
 # 打开 Markdown 文件以写入报告
 with open('README.md', 'w', encoding='utf-8') as mdfile:

@@ -2,7 +2,7 @@ name: arXiv Daily Papers
 
 on:
   schedule:
-    - cron: '30 11 * * *'  # 每天 UTC 时间 00:00 运行
+    - cron: '40 3 * * *'  # 每天 UTC+8 时间 11:40 运行
   # 允许手动触发
   workflow_dispatch:
     inputs:
