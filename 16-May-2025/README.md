@@ -1,0 +1,5 @@
+# arXiv Daily Report - 16-May-2025
+
+| Title | Link | abstract | author |
+| --- | --- | --- | --- |
+| OAEI-LLM-T: A TBox Benchmark Dataset for Understanding Large Language Model Hallucinations in Ontology Matching | [https://arxiv.org/abs/2503.21813](https://arxiv.org/abs/2503.21813) | Hallucinations are often inevitable in downstream tasks using large language models (LLMs). To tackle the substantial challenge of addressing hallucinations for LLM-based ontology matching (OM) systems, we introduce a new benchmark dataset OAEI-LLM-T. The dataset evolves from seven TBox datasets in the Ontology Alignment Evaluation Initiative (OAEI), capturing hallucinations of ten different LLMs performing OM tasks. These OM-specific hallucinations are organised into two primary categories and six sub-categories. We showcase the usefulness of the dataset in constructing an LLM leaderboard for OM tasks and for fine-tuning LLMs used in OM tasks. | Zhangcheng Qiang, Kerry Taylor, Weiqing Wang, Jing Jiang |
